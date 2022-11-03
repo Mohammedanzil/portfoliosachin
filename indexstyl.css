@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+    margin: 0;
+    background-color: bisque;
+    background-image: url('./sachin-t.webp');
+    background-size: cover;
+}
+.menu{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(195, 144, 243);
+    margin-top: 0px;
+    padding: 10px;
+    
+}
+.links{
+    display: inline;
+    padding: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px black;
+    
+}
+/* pseudo class, selector:pseudo-class{property:value;} */
+a:hover{
+    font-size: 20px;
+    text-decoration: underline;
+    text-shadow: 2px 2px red;
+}
+html{
+    scroll-behavior: smooth;
+}
+.profile{
+    margin-top: 70px;
+width: 500px;
+}
+#name{
+    font-family: 'Noto Sans Warang Citi', sans-serif;
+    font-size: 50px;
+}
+#welcome{
+    background: linear-gradient(to bottom right , aqua, rgb(234, 55, 55));
+}
+.line{
+    height: 6px;
+    width: 70px;
+    background-color: black;
+    margin-right: auto;
+    margin-left: auto;
+}
+h3{
+    display: inline;
+}
